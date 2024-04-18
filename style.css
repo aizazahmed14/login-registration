@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+body{
+    height: 100vh;
+    /* width: 100%; */
+    display: flex;
+    background: #009579;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    
+}
+.container{
+    /* max-width: 500px; */
+    width: 430px;
+    /* height: 100vh; */
+    /* max-width: 770px; */
+    /* border: 3px solid red; */
+    /* padding: 25px 30px; */
+    /* justify-content: center;
+     */
+    
+     
+     
+    
+}
+
+.container .registration{
+    display: none;
+}
+
+#check:checked ~ .registration{
+    display: block;
+}
+
+#check:checked ~ .login{
+    display: none;
+}
+#check{
+    display: none;
+}
+
+.title{
+    
+    /* to be changed to 20px */
+    padding: 30px 0;
+    color:  black;
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+    /* border: 3px dashed brown; */
+}
+
+.container .form{
+    max-width: 430px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    /* TO BE REMOVED */
+    /* border: 5px dotted red; */
+    /* position: relative; */
+    
+  
+   
+    
+}
+
+.form .input-field, .loginbutton, .registerbutton{
+    /* border: 1px solid green; */
+    width: 90%;
+    padding-left: 40px ;
+}
+
+
+.form input{
+    height: 60px;
+    width: 100%;
+    padding: 0 15px;
+    border-radius: 7px;
+    font-size: 17px;
+    /* border: 1px dashed red; */
+    outline:none;
+    /* width: 300px; */
+    margin-bottom: 1.3rem;
+    position:relative;
+    border: 1px solid #ddd;
+    
+}
+
+.form a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #009579;
+}
+
+.form .loginbutton, .registerbutton{
+    margin-top: 20px;
+}
+
+.registerbutton input, .loginbutton input{
+    background: #009579;
+    border: none;
+    color: #fff;
+}
+
+.signup{
+    /* border: 1px dashed red; */
+    /* margin-bottom: 20px; */
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 20px;
+    
+}
+
+.signup label{
+    color: #009579;
+    cursor: pointer;
+}
+
+
+/* .form input.signup{
+    background:#009579 ;
+} */
+
+
